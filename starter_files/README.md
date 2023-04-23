@@ -16,10 +16,17 @@
 ### Completed Run:
 <img width="1439" alt="Screenshot 2023-04-21 at 20 03 54" src="https://user-images.githubusercontent.com/110788191/233704768-e547afd0-6d99-4e0f-9e31-5d76d08d416e.png">
 
-### Pipeline Run:
+### Pipeline Published:
 
 <img width="1439" alt="pipeline" src="https://user-images.githubusercontent.com/110788191/233708107-435e2ceb-81b4-400f-9d00-8fe1984f51a7.png">
 
+### Pipeline Endpoint
+
+<img width="1440" alt="pipeline_endpoint" src="https://user-images.githubusercontent.com/110788191/233708295-4e4a8946-47cd-419a-95b7-76f9a8ba0ea5.png">
+
+### Pipeline Endpoint Status
+
+<img width="1436" alt="Screenshot 2023-04-23 at 02 49 43" src="https://user-images.githubusercontent.com/110788191/233813524-80ad27bb-334a-4e0b-9fb6-07e280961ec6.png">
 
 ### Best Model:
 <img width="1191" alt="best_model" src="https://user-images.githubusercontent.com/110788191/233704981-1ab167aa-81d8-4302-8f4b-424ff966aad4.png">
@@ -31,14 +38,6 @@
 ### Best Model- Metrics
 <img width="1435" alt="Screenshot 2023-04-23 at 02 43 40" src="https://user-images.githubusercontent.com/110788191/233813431-c10f2cf9-629b-432d-83c1-1925a144aacc.png">
 
-
-### Pipeline Endpoint
-
-<img width="1440" alt="pipeline_endpoint" src="https://user-images.githubusercontent.com/110788191/233708295-4e4a8946-47cd-419a-95b7-76f9a8ba0ea5.png">
-
-### Pipeline Status
-
-<img width="1440" alt="pipeline_endpoint" src="https://user-images.githubusercontent.com/110788191/233708661-efa55194-fa34-45ff-8e6e-fa4331c07a82.png">
 
 ### Model Deployment
 <img width="1433" alt="model deployment" src="https://user-images.githubusercontent.com/110788191/233812998-df66fce9-89a6-4dc4-bc9a-fd8e8b721c7b.png">
