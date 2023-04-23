@@ -10,6 +10,9 @@
 
 <img width="1042" alt="Dataset_register" src="https://user-images.githubusercontent.com/110788191/233704283-3a5e9ce9-5764-44d9-bfd0-030b83c7f00d.png">
 
+### Dataset Guradrail:
+<img width="1438" alt="Screenshot 2023-04-23 at 02 42 24" src="https://user-images.githubusercontent.com/110788191/233813399-8b99c2d4-b5f0-47d9-9b85-94d220dbd048.png">
+
 ### Completed Run:
 <img width="1439" alt="Screenshot 2023-04-21 at 20 03 54" src="https://user-images.githubusercontent.com/110788191/233704768-e547afd0-6d99-4e0f-9e31-5d76d08d416e.png">
 
@@ -20,6 +23,14 @@
 
 ### Best Model:
 <img width="1191" alt="best_model" src="https://user-images.githubusercontent.com/110788191/233704981-1ab167aa-81d8-4302-8f4b-424ff966aad4.png">
+
+
+### Best Model- Feature Importance
+<img width="1439" alt="Screenshot 2023-04-23 at 02 43 10" src="https://user-images.githubusercontent.com/110788191/233813404-76dd4bb9-6687-4c5e-a32e-5d9c2902fdce.png">
+
+### Best Model- Metrics
+<img width="1435" alt="Screenshot 2023-04-23 at 02 43 40" src="https://user-images.githubusercontent.com/110788191/233813431-c10f2cf9-629b-432d-83c1-1925a144aacc.png">
+
 
 ### Pipeline Endpoint
 
