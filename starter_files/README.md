@@ -29,11 +29,48 @@
 
 <img width="1440" alt="pipeline_endpoint" src="https://user-images.githubusercontent.com/110788191/233708661-efa55194-fa34-45ff-8e6e-fa4331c07a82.png">
 
-### Pipeline Status
+### Model Deployment
+<img width="1433" alt="model deployment" src="https://user-images.githubusercontent.com/110788191/233812998-df66fce9-89a6-4dc4-bc9a-fd8e8b721c7b.png">
+
+### App Insights
+<img width="1439" alt="app insights dashboard" src="https://user-images.githubusercontent.com/110788191/233813036-f193df6d-822f-4b9d-a23f-0fcd65ec1f2e.png">
 
 
-## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+### Swagger CLI
+<img width="1436" alt="swagger" src="https://user-images.githubusercontent.com/110788191/233813092-5559ff17-e4f6-4d9b-abb5-00e48c1c4930.png">
+
+### Swagger API Call
+
+<img width="1440" alt="serve" src="https://user-images.githubusercontent.com/110788191/233813127-cd267dc8-16e1-4f46-93a0-2fc2ad2aa4f1.png">
+
+### API Test
+
+<img width="913" alt="api-test" src="https://user-images.githubusercontent.com/110788191/233813151-6a77aafa-e5f7-4989-83b8-91a5cd03fba4.png">
+
+<img width="812" alt="logs2" src="https://user-images.githubusercontent.com/110788191/233813155-6a5ab7bc-37eb-48f0-bc67-c6788e2335c4.png">
+
+<img width="903" alt="logs" src="https://user-images.githubusercontent.com/110788191/233813158-fbff5914-a944-4b50-9ede-d050cc8c5070.png">
+
+
+## Future Improvements
+
+A useful technique for evaluating a deployed model's performance and confirming that it adheres to expectations is benchmarking. A popular command-line tool for measuring response time in seconds and assessing model effectiveness is Apache Benchmark (ab).
+
+The ideal model can be found by experimentation, but it's vital to take cost considerations into account, especially when running models on a Virtual Machine (VM). Finding the ideal setup requires balancing various elements, including resource costs, parallel processing, and experiment duration.
+
+A container orchestration technology called Kubernetes might be useful for managing resources and scaling up or down in response to demand. When more data is added to the existing dataset, it can also aid in the efficient deployment and utilization of resources, thereby lowering costs.
+
+Monitoring and logging: Setting up reliable systems for tracking the performance of the deployed model can provide us insights into how it behaves and point out areas where it can be improved.
+
+Automated testing: By include automated testing in the deployment pipeline, performance regressions and other problems can be discovered early on, allowing for prompt correction.
+
+Techniques for optimization: Investigating optimization methods like model quantization, model trimming, or hardware acceleration might enhance the performance of the deployed model while consuming less resources.
+
+Cost management while preserving performance can be achieved by routinely reviewing and improving resource utilization, such as by shrinking virtual machines or configuring Kubernetes clusters more effectively.
+
+Security considerations: To protect sensitive information and preserve compliance, it is essential to make sure that the benchmarking and experimentation processes follow security best practices, such as data protection, access controls, and secure communication.
+
+In conclusion, benchmarking, trying out various models, utilizing tools like Kubernetes, and taking into account additional elements like monitoring, automated testing, optimization techniques, cost optimization, and security considerations can all help to ensure that a deployed model performs to expectations.
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
