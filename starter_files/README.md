@@ -3,7 +3,9 @@
 *TODO:* The project includes an AutoML model setup on the Bank Marketing Dataset as part of this project, deployed the best model that resulted from the run as a RESTful API Webservice, used endpoints to communicate with the deployed model in ML studio, and finally automated pipelines to enhance machine learning operations.
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+
+<img width="778" alt="image" src="https://user-images.githubusercontent.com/110788191/233855841-efefda4f-9848-4fd3-ac3d-94d359ba1e5e.png">
+
 
 ## Key Steps
 ### Registered Dataset:
