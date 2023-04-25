@@ -1,9 +1,10 @@
 # Microsoft-Azure-Machine-Learning-Engineer-Udacity-Project-2
 
-*TODO:* The project includes an AutoML model setup on the Bank Marketing Dataset as part of this project, deployed the best model that resulted from the run as a RESTful API Webservice, used endpoints to communicate with the deployed model in ML studio, and finally automated pipelines to enhance machine learning operations.
+The project includes an AutoML model setup on the Bank Marketing Dataset as part of this project, deployed the best model that resulted from the run as a RESTful API Webservice, used endpoints to communicate with the deployed model in ML studio, and finally automated pipelines to enhance machine learning operations.
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+<img width="903" alt="image" src="https://user-images.githubusercontent.com/110788191/234421411-9074b7c1-a5b8-4f54-bd00-957f71eb2f18.png">
+ 
 
 ## Key Steps
 ### Registered Dataset:
