@@ -2,6 +2,8 @@
 
 The project includes an AutoML model setup on the Bank Marketing Dataset as part of this project, deployed the best model that resulted from the run as a RESTful API Webservice, used endpoints to communicate with the deployed model in ML studio, and finally automated pipelines to enhance machine learning operations.
 
+Video Link : https://www.youtube.com/watch?v=We68dnI-UaI 
+
 ## Architectural Diagram
 <img width="903" alt="image" src="https://user-images.githubusercontent.com/110788191/234421411-9074b7c1-a5b8-4f54-bd00-957f71eb2f18.png">
  
