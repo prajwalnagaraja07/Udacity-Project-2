@@ -48,60 +48,111 @@ Overall, Azure AutoML makes it easier for users of all skill levels to design, t
 
 4. Finally, an HTTP API is used to consume the deployed service. In order to submit data, we start an input request, in this example using the HTTP Post request method. Another request approach to get data from a web server is an HTTP GET request. As a result, Azure now has a two-way flow of authorized information. The URI and key are modified to match the primary key for our service in order to consume deployed services, and a RESTful URI is generated after deployment. The output is produced when the endpoint.py script is executed following change.
 
-### Registered Dataset:
+
+### 2. Automated ML  Experiment:
+## 2.1 Registered Dataset:
+
+Our a dataset is registered in Azure Machine Learning, it becomes a reusable entity that can be referenced in experiments, pipelines, and deployments, facilitating collaborative data-driven development.
 
 <img width="1042" alt="Dataset_register" src="https://user-images.githubusercontent.com/110788191/233704283-3a5e9ce9-5764-44d9-bfd0-030b83c7f00d.png">
 
-### Dataset Guradrail:
+## 2.2 Dataset Guradrail:
+
+Dataset gets checked for test cases ensuring data quality.
+
 <img width="1438" alt="Screenshot 2023-04-23 at 02 42 24" src="https://user-images.githubusercontent.com/110788191/233813399-8b99c2d4-b5f0-47d9-9b85-94d220dbd048.png">
 
-### Completed Run:
+## 2.3 Completed Run:
+
+The screenshot shows an completed run of our automL job.
+
+<img width="1437" alt="image" src="https://user-images.githubusercontent.com/110788191/234671161-69744e21-f9a6-4f8f-99fe-e826115d2a5d.png">
+
+<img width="1433" alt="image" src="https://user-images.githubusercontent.com/110788191/234662582-3bc4952e-b6a3-4514-883f-12d2e4e88bf3.png">
+
 <img width="1439" alt="Screenshot 2023-04-21 at 20 03 54" src="https://user-images.githubusercontent.com/110788191/233704768-e547afd0-6d99-4e0f-9e31-5d76d08d416e.png">
 
-### Pipeline Published:
+## 2.4 Best Model:
 
-<img width="1439" alt="pipeline" src="https://user-images.githubusercontent.com/110788191/233708107-435e2ceb-81b4-400f-9d00-8fe1984f51a7.png">
+After an sucessfull automl job, the best model was Voting Ensembler with an accuracy of 0.94.
 
-### Pipeline Endpoint
-
-<img width="1440" alt="pipeline_endpoint" src="https://user-images.githubusercontent.com/110788191/233708295-4e4a8946-47cd-419a-95b7-76f9a8ba0ea5.png">
-
-### Pipeline Endpoint Status
-
-<img width="1436" alt="Screenshot 2023-04-23 at 02 49 43" src="https://user-images.githubusercontent.com/110788191/233813524-80ad27bb-334a-4e0b-9fb6-07e280961ec6.png">
-
-### Best Model:
 <img width="1191" alt="best_model" src="https://user-images.githubusercontent.com/110788191/233704981-1ab167aa-81d8-4302-8f4b-424ff966aad4.png">
 
+## Best Model- Feature Importance
 
-### Best Model- Feature Importance
+The model also has explaibilty regrading the feature engineering occured during the training.
+
 <img width="1439" alt="Screenshot 2023-04-23 at 02 43 10" src="https://user-images.githubusercontent.com/110788191/233813404-76dd4bb9-6687-4c5e-a32e-5d9c2902fdce.png">
 
-### Best Model- Metrics
+## Best Model- Metrics
+Following evaluations metrics gets logged into the metric section of the job.
+
 <img width="1435" alt="Screenshot 2023-04-23 at 02 43 40" src="https://user-images.githubusercontent.com/110788191/233813431-c10f2cf9-629b-432d-83c1-1925a144aacc.png">
 
+### 3 Model Deployment
 
-### Model Deployment
+Deploying the Best Model on ACI will allow to interact with the HTTP API service and interact with the model by sending data over POST requests. 
+Also enabling authentication.
+
 <img width="1433" alt="model deployment" src="https://user-images.githubusercontent.com/110788191/233812998-df66fce9-89a6-4dc4-bc9a-fd8e8b721c7b.png">
 
-### App Insights
+### 4 Enable Logging
+
+The Best Model is deployed, enable Application Insights and retrieve logs. The screenshot depicts the dashboard for monitoring different metrics.
+
 <img width="1439" alt="app insights dashboard" src="https://user-images.githubusercontent.com/110788191/233813036-f193df6d-822f-4b9d-a23f-0fcd65ec1f2e.png">
 
+## 4.1 App Insights logging
 
-### Swagger CLI
+Now that the Best Model is deployed, enabling Application Insights and retrieve logs. Editing the provided logs.py and running it on notebook results in enabling logs of the deployed model. 
+
+<img width="1436" alt="image" src="https://user-images.githubusercontent.com/110788191/234669368-4dab6afe-0e08-4f3c-a9ed-cd5587512a07.png">
+
+Also available in model deployments log section.
+
+<img width="1433" alt="image" src="https://user-images.githubusercontent.com/110788191/234669973-51f37993-bf10-478d-a130-7c159531d966.png">
+
+### 5 Swagger 
+
+Azure provides a Swagger JSON file for deployed models. 
+Swagger runs on localhost showing the HTTP API methods and responses for the model.
+
 <img width="1436" alt="swagger" src="https://user-images.githubusercontent.com/110788191/233813092-5559ff17-e4f6-4d9b-abb5-00e48c1c4930.png">
 
-### Swagger API Call
+## 5.1 Swagger API Call
+
+Sucessfull calls using serve.py HTTP API methods and responses for the model. Running swager.sh for geeting docker image.
 
 <img width="1440" alt="serve" src="https://user-images.githubusercontent.com/110788191/233813127-cd267dc8-16e1-4f46-93a0-2fc2ad2aa4f1.png">
 
-### API Test
+## 6 Consume Endpoints
+
+Running endpoint.py for getting json output from the model. The screenshots depicts the successfull calls.
 
 <img width="913" alt="api-test" src="https://user-images.githubusercontent.com/110788191/233813151-6a77aafa-e5f7-4989-83b8-91a5cd03fba4.png">
 
 <img width="812" alt="logs2" src="https://user-images.githubusercontent.com/110788191/233813155-6a5ab7bc-37eb-48f0-bc67-c6788e2335c4.png">
 
 <img width="903" alt="logs" src="https://user-images.githubusercontent.com/110788191/233813158-fbff5914-a944-4b50-9ede-d050cc8c5070.png">
+
+
+### 7 Create, Publish and Consume a Pipeline:
+
+The screenshot depicts the published pipeline with auto_ml step.
+
+<img width="1439" alt="pipeline" src="https://user-images.githubusercontent.com/110788191/233708107-435e2ceb-81b4-400f-9d00-8fe1984f51a7.png">
+
+### Pipeline Endpoint
+
+The published pipeline of with auto_ml step is now available as an API in pipeline_endpoint section.
+
+<img width="1440" alt="pipeline_endpoint" src="https://user-images.githubusercontent.com/110788191/233708295-4e4a8946-47cd-419a-95b7-76f9a8ba0ea5.png">
+
+### Pipeline Endpoint Status
+
+The API endpoint status is Active in pipeline_endpoint section.
+
+<img width="1436" alt="Screenshot 2023-04-23 at 02 49 43" src="https://user-images.githubusercontent.com/110788191/233813524-80ad27bb-334a-4e0b-9fb6-07e280961ec6.png">
 
 
 ## Future Improvements
