@@ -66,8 +66,6 @@ Dataset gets checked for test cases ensuring data quality.
 
 The screenshot shows an completed run of our automL job.
 
-<img width="1437" alt="image" src="https://user-images.githubusercontent.com/110788191/234671161-69744e21-f9a6-4f8f-99fe-e826115d2a5d.png">
-
 <img width="1433" alt="image" src="https://user-images.githubusercontent.com/110788191/234662582-3bc4952e-b6a3-4514-883f-12d2e4e88bf3.png">
 
 <img width="1439" alt="Screenshot 2023-04-21 at 20 03 54" src="https://user-images.githubusercontent.com/110788191/233704768-e547afd0-6d99-4e0f-9e31-5d76d08d416e.png">
@@ -139,6 +137,8 @@ Running endpoint.py for getting json output from the model. The screenshots depi
 ### 7 Create, Publish and Consume a Pipeline:
 
 The screenshot depicts the published pipeline with auto_ml step.
+
+<img width="1437" alt="image" src="https://user-images.githubusercontent.com/110788191/234671161-69744e21-f9a6-4f8f-99fe-e826115d2a5d.png">
 
 <img width="1439" alt="pipeline" src="https://user-images.githubusercontent.com/110788191/233708107-435e2ceb-81b4-400f-9d00-8fe1984f51a7.png">
 
