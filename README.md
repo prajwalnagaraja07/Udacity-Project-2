@@ -136,7 +136,7 @@ swagger.json download from the Azure studio same name as our endpoint.
 
 ## 6 Consume Endpoints
 
-Running endpoint.py for getting json output from the model. The screenshots depicts the successfull calls.
+Running endpoint.py by chnaging url and api key for getting json output from the model. The screenshots depicts the successfull calls.
 
 <img width="913" alt="api-test" src="https://user-images.githubusercontent.com/110788191/233813151-6a77aafa-e5f7-4989-83b8-91a5cd03fba4.png">
 
