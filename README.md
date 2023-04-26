@@ -119,15 +119,17 @@ Also available in model deployments log section.
 Azure provides a Swagger JSON file for deployed models. 
 Swagger runs on localhost showing the HTTP API methods and responses for the model. Sucessfull calls using **serve.py** HTTP API methods and responses for the model. Running **swager.sh** for geeting docker image.
 
-Sucessfull calls using serve.py HTTP API methods and responses for the model. Running swager.sh for geeting docker image.
-
 
 <img width="1439" alt="image" src="https://user-images.githubusercontent.com/110788191/234680689-3baf679d-7f83-438e-b6d1-aaeaada7c911.png">
 
 <img width="1434" alt="image" src="https://user-images.githubusercontent.com/110788191/234681019-cac3d69e-1076-4bde-9c2b-327990576222.png">
 
 
-<img width="1439" alt="image" src="https://user-images.githubusercontent.com/110788191/234677504-5fb915dc-cf47-4681-a1ea-80b02effd902.png">
+Swagger URI being enabled.
+
+<img width="1440" alt="Screenshot 2023-04-26 at 21 04 26" src="https://user-images.githubusercontent.com/110788191/234683023-fa97255f-2d09-472e-bec4-827aa00e7635.png">
+
+swagger.json download from the Azure studio same name as our endpoint.
 
 <img width="1437" alt="image" src="https://user-images.githubusercontent.com/110788191/234675719-4044f56d-6df2-4d80-9d74-869010b049c0.png">
 
@@ -146,6 +148,11 @@ Also testing in json foramt in UI.
 
 <img width="1426" alt="image" src="https://user-images.githubusercontent.com/110788191/234678350-67af8017-8010-4bfc-9a6a-46b97b257f79.png">
 
+## Benchmarking
+
+After running benchmark.sh. Here is the screenshot.
+
+<img width="803" alt="benchmark" src="https://user-images.githubusercontent.com/110788191/234682593-6417944e-4e5a-455f-b39b-4356955c90cf.png">
 
 
 ## 7 Create, Publish and Consume a Pipeline:
