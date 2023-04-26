@@ -113,15 +113,23 @@ Also available in model deployments log section.
 ### 5 Swagger 
 
 Azure provides a Swagger JSON file for deployed models. 
-Swagger runs on localhost showing the HTTP API methods and responses for the model.
+Swagger runs on localhost showing the HTTP API methods and responses for the model. Also showcasing swager.json and uploaded in the repsoitory.
 
 <img width="1436" alt="swagger" src="https://user-images.githubusercontent.com/110788191/233813092-5559ff17-e4f6-4d9b-abb5-00e48c1c4930.png">
+
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/110788191/234677378-3948bdc7-791c-4b52-98cf-db1dc893c21f.png">
+
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/110788191/234677504-5fb915dc-cf47-4681-a1ea-80b02effd902.png">
+
 
 ## 5.1 Swagger API Call
 
 Sucessfull calls using serve.py HTTP API methods and responses for the model. Running swager.sh for geeting docker image.
 
 <img width="1440" alt="serve" src="https://user-images.githubusercontent.com/110788191/233813127-cd267dc8-16e1-4f46-93a0-2fc2ad2aa4f1.png">
+
+<img width="1437" alt="image" src="https://user-images.githubusercontent.com/110788191/234675719-4044f56d-6df2-4d80-9d74-869010b049c0.png">
+
 
 ## 6 Consume Endpoints
 
@@ -151,6 +159,35 @@ The published pipeline of with auto_ml step is now available as an API in pipeli
 ### Pipeline Endpoint Status
 
 The API endpoint status is Active in pipeline_endpoint section.
+
+<img width="1436" alt="Screenshot 2023-04-23 at 02 49 43" src="https://user-images.githubusercontent.com/110788191/233813524-80ad27bb-334a-4e0b-9fb6-07e280961ec6.png">
+
+### Jupyter Notebook Screenshots
+
+You can also have a look at successfull notebook in the code repository. 
+
+Screenshot
+
+<img width="1213" alt="image" src="https://user-images.githubusercontent.com/110788191/234674579-19b8cf38-933c-47dc-bc0d-5a7dd857a37c.png">
+
+<img width="1216" alt="image" src="https://user-images.githubusercontent.com/110788191/234675913-330e2e4a-6d17-4be6-87d5-c40fd2f986e3.png">
+
+Screenshot depicting child runs summary.
+
+<img width="1433" alt="image" src="https://user-images.githubusercontent.com/110788191/234676096-a1973aab-68ed-4cb1-ba2f-3ae06b15c09e.png">
+
+Retruving Best Model.
+
+<img width="1216" alt="image" src="https://user-images.githubusercontent.com/110788191/234676899-0e8a89c5-985a-4e83-836e-f92e480b20fe.png">
+
+
+Publishing pipeline snippet from notebook.
+
+<img width="1435" alt="image" src="https://user-images.githubusercontent.com/110788191/234676381-793e03e2-3d0c-4e6e-b92a-551813358c7c.png">
+
+<img width="1437" alt="image" src="https://user-images.githubusercontent.com/110788191/234676669-0da12e63-dc51-40af-85e4-2900c3704a5b.png">
+
+<img width="1440" alt="pipeline_endpoint" src="https://user-images.githubusercontent.com/110788191/233708295-4e4a8946-47cd-419a-95b7-76f9a8ba0ea5.png">
 
 <img width="1436" alt="Screenshot 2023-04-23 at 02 49 43" src="https://user-images.githubusercontent.com/110788191/233813524-80ad27bb-334a-4e0b-9fb6-07e280961ec6.png">
 
