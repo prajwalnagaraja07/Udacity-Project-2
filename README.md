@@ -49,7 +49,7 @@ Overall, Azure AutoML makes it easier for users of all skill levels to design, t
 4. Finally, an HTTP API is used to consume the deployed service. In order to submit data, we start an input request, in this example using the HTTP Post request method. Another request approach to get data from a web server is an HTTP GET request. As a result, Azure now has a two-way flow of authorized information. The URI and key are modified to match the primary key for our service in order to consume deployed services, and a RESTful URI is generated after deployment. The output is produced when the endpoint.py script is executed following change.
 
 
-### 2. Automated ML  Experiment:
+## 2. Automated ML  Experiment:
 ## 2.1 Registered Dataset:
 
 Our a dataset is registered in Azure Machine Learning, it becomes a reusable entity that can be referenced in experiments, pipelines, and deployments, facilitating collaborative data-driven development.
@@ -87,14 +87,14 @@ Following evaluations metrics gets logged into the metric section of the job.
 
 <img width="1435" alt="Screenshot 2023-04-23 at 02 43 40" src="https://user-images.githubusercontent.com/110788191/233813431-c10f2cf9-629b-432d-83c1-1925a144aacc.png">
 
-### 3 Model Deployment
+## 3 Model Deployment
 
 Deploying the Best Model on ACI will allow to interact with the HTTP API service and interact with the model by sending data over POST requests. 
 Also enabling authentication.
 
 <img width="1433" alt="model deployment" src="https://user-images.githubusercontent.com/110788191/233812998-df66fce9-89a6-4dc4-bc9a-fd8e8b721c7b.png">
 
-### 4 Enable Logging
+## 4 Enable Logging
 
 The Best Model is deployed, enable Application Insights and retrieve logs. The screenshot depicts the dashboard for monitoring different metrics.
 
@@ -102,7 +102,7 @@ The Best Model is deployed, enable Application Insights and retrieve logs. The s
 
 ## 4.1 App Insights logging
 
-Now that the Best Model is deployed, enabling Application Insights and retrieve logs. Editing the provided logs.py and running it on notebook results in enabling logs of the deployed model. 
+Now that the Best Model is deployed, enabling Application Insights and retrieve logs. Editing the provided **logs.py** and running it on notebook results in enabling logs of the deployed model. 
 
 <img width="1436" alt="image" src="https://user-images.githubusercontent.com/110788191/234669368-4dab6afe-0e08-4f3c-a9ed-cd5587512a07.png">
 
@@ -110,23 +110,20 @@ Also available in model deployments log section.
 
 <img width="1433" alt="image" src="https://user-images.githubusercontent.com/110788191/234669973-51f37993-bf10-478d-a130-7c159531d966.png">
 
-### 5 Swagger 
+## 5 Swagger 
 
 Azure provides a Swagger JSON file for deployed models. 
-Swagger runs on localhost showing the HTTP API methods and responses for the model. Also showcasing swager.json and uploaded in the repsoitory.
-
-<img width="1436" alt="swagger" src="https://user-images.githubusercontent.com/110788191/233813092-5559ff17-e4f6-4d9b-abb5-00e48c1c4930.png">
-
-<img width="1440" alt="image" src="https://user-images.githubusercontent.com/110788191/234677378-3948bdc7-791c-4b52-98cf-db1dc893c21f.png">
-
-<img width="1439" alt="image" src="https://user-images.githubusercontent.com/110788191/234677504-5fb915dc-cf47-4681-a1ea-80b02effd902.png">
-
-
-## 5.1 Swagger API Call
+Swagger runs on localhost showing the HTTP API methods and responses for the model. Sucessfull calls using **serve.py** HTTP API methods and responses for the model. Running **swager.sh** for geeting docker image.
 
 Sucessfull calls using serve.py HTTP API methods and responses for the model. Running swager.sh for geeting docker image.
 
-<img width="1440" alt="serve" src="https://user-images.githubusercontent.com/110788191/233813127-cd267dc8-16e1-4f46-93a0-2fc2ad2aa4f1.png">
+
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/110788191/234680689-3baf679d-7f83-438e-b6d1-aaeaada7c911.png">
+
+<img width="1434" alt="image" src="https://user-images.githubusercontent.com/110788191/234681019-cac3d69e-1076-4bde-9c2b-327990576222.png">
+
+
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/110788191/234677504-5fb915dc-cf47-4681-a1ea-80b02effd902.png">
 
 <img width="1437" alt="image" src="https://user-images.githubusercontent.com/110788191/234675719-4044f56d-6df2-4d80-9d74-869010b049c0.png">
 
@@ -141,8 +138,13 @@ Running endpoint.py for getting json output from the model. The screenshots depi
 
 <img width="903" alt="logs" src="https://user-images.githubusercontent.com/110788191/233813158-fbff5914-a944-4b50-9ede-d050cc8c5070.png">
 
+Also testing in json foramt in UI.
 
-### 7 Create, Publish and Consume a Pipeline:
+<img width="1426" alt="image" src="https://user-images.githubusercontent.com/110788191/234678350-67af8017-8010-4bfc-9a6a-46b97b257f79.png">
+
+
+
+## 7 Create, Publish and Consume a Pipeline:
 
 The screenshot depicts the published pipeline with auto_ml step.
 
@@ -150,19 +152,19 @@ The screenshot depicts the published pipeline with auto_ml step.
 
 <img width="1439" alt="pipeline" src="https://user-images.githubusercontent.com/110788191/233708107-435e2ceb-81b4-400f-9d00-8fe1984f51a7.png">
 
-### Pipeline Endpoint
+## Pipeline Endpoint
 
 The published pipeline of with auto_ml step is now available as an API in pipeline_endpoint section.
 
 <img width="1440" alt="pipeline_endpoint" src="https://user-images.githubusercontent.com/110788191/233708295-4e4a8946-47cd-419a-95b7-76f9a8ba0ea5.png">
 
-### Pipeline Endpoint Status
+## Pipeline Endpoint Status
 
 The API endpoint status is Active in pipeline_endpoint section.
 
 <img width="1436" alt="Screenshot 2023-04-23 at 02 49 43" src="https://user-images.githubusercontent.com/110788191/233813524-80ad27bb-334a-4e0b-9fb6-07e280961ec6.png">
 
-### Jupyter Notebook Screenshots
+## Jupyter Notebook Screenshots
 
 You can also have a look at successfull notebook in the code repository. 
 
