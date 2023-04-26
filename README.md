@@ -104,7 +104,7 @@ Screenshot depicting app insights enabled.
 
 <img width="1439" alt="app insights dashboard" src="https://user-images.githubusercontent.com/110788191/233813036-f193df6d-822f-4b9d-a23f-0fcd65ec1f2e.png">
 
-## 4.1 App Insights logging
+## Deployment Logs
 
 Now that the Best Model is deployed, enabling Application Insights and retrieve logs. Editing the provided **logs.py** and running it on notebook results in enabling logs of the deployed model. 
 
